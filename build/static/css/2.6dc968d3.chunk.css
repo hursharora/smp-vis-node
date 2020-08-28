@@ -1,0 +1,2 @@
+.fdraglist{width:100%;height:100%;overflow:auto;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative}.fdrag_item{overflow:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;-ms-perspective:1000;perspective:1000;transform:translateZ(0);height:100%;background-color:#fff}.fdrag_item_animate{transition:all .3s}.fdrag_item_inner{padding:5px}
+/*# sourceMappingURL=2.6dc968d3.chunk.css.map */
