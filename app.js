@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 
 app.post("/smp", (req, res) => {
-    const child = execFile("smp", function (error, stdout) {
+    const child = execFile("./smp", function (error, stdout) {
         //just \n on unix
         const result = stdout.split("\n");
 
