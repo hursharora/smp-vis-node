@@ -17,9 +17,9 @@ app.use((req, res, next) => {
 });
 
 app.post("/smp", (req, res) => {
-    const child = execFile("smp.exe", function (error, stdout) {
+    const child = execFile("smp", function (error, stdout) {
         //just \n on unix
-        const result = stdout.split("\r\n");
+        const result = stdout.split("\n");
 
         res.status(201).json(result);
     });
